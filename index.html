@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tom Hennequin – Ingénierie financière et actuariat</title>
+  <meta name="description" content="Étudiant-ingénieur à l’ESILV en ingénierie financière et actuariat. Recherche un stage de 2 à 5 mois en structuration de produits dérivés ou en actuariat, en France ou au Luxembourg, à partir du 31 mai 2027.">
+  <meta name="author" content="Tom Hennequin">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:locale:alternate" content="en_GB">
+  <meta property="og:title" content="Tom Hennequin – Ingénierie financière et actuariat">
+  <meta property="og:description" content="Stage de 2 à 5 mois en structuration de produits dérivés ou en actuariat, en France ou au Luxembourg, à partir du 31 mai 2027.">
+  <link rel="icon" href="pdf/favicon.ico" sizes="any">
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      try {
+        var l = new URLSearchParams(location.search).get('lang') || localStorage.getItem('lang');
+        if (l === 'en') {
+          d.lang = 'en';
+          d.classList.add('i18n-wait');
+          setTimeout(function () { d.classList.remove('i18n-wait'); }, 1500);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Tom Hennequin",
+    "jobTitle": "Étudiant-ingénieur en ingénierie financière et actuariat",
+    "email": "mailto:tomhennequin27@gmail.com",
+    "telephone": "+33768454881",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "ESILV – École Supérieure d’Ingénieurs Léonard de Vinci" },
+    "knowsLanguage": ["fr", "en", "de", "lb"],
+    "sameAs": ["https://www.linkedin.com/in/tom-hennequin"]
+  }
+  </script>
+  <script src="i18n/en.js" defer></script>
+  <script src="data/portefeuilles.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenu" data-i18n="skip">Aller au contenu</a>
+
+  <nav class="utility" aria-label="Liens rapides" data-i18n-attr="aria-label:ut.label">
+    <div class="wrap utility-inner">
+      <p class="utility-note" data-i18n="ut.note">Disponible pour un stage à partir du 31&nbsp;mai 2027</p>
+      <ul class="utility-links">
+        <li><a href="https://www.linkedin.com/in/tom-hennequin" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="pdf/CV_Hennequin_Tom.pdf" download="CV_Tom_Hennequin.pdf" data-cv data-i18n="ft.cv">CV en PDF</a></li>
+        <li>
+          <div class="lang-switch" role="group" aria-label="Langue du site" data-i18n-attr="aria-label:lang.label">
+            <button type="button" data-lang="fr" aria-pressed="true" lang="fr" title="Français">FR</button>
+            <button type="button" data-lang="en" aria-pressed="false" lang="en" title="English">EN</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="site-header" id="haut">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#haut">Tom Hennequin</a>
+
+      <nav class="mega" aria-label="Navigation principale" data-i18n-attr="aria-label:nav.label">
+        <ul class="mega-list">
+          <li>
+            <button type="button" class="mega-trigger" id="mt-profil" aria-expanded="false" aria-controls="mp-profil" data-sections="profil"><span data-i18n="nav.profil">Profil</span><svg class="chev" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+            <div class="mega-panel" id="mp-profil" hidden>
+              <div class="wrap panel-grid">
+                <div class="panel-intro">
+                  <p class="panel-title" data-i18n="nav.profil">Profil</p>
+                  <p class="panel-desc" data-i18n="mp.profil">Formation d’ingénieur, langues et compétences.</p>
+                  <a class="panel-all" href="#profil" data-i18n="mp.allProfil">Voir le profil</a>
+                </div>
+                <ul class="panel-links">
+                  <li><a href="#profil"><span class="pl-title" data-i18n="mp.p1">Présentation</span><span class="pl-desc" data-i18n="mp.p1d">Parcours et objectifs</span></a></li>
+                  <li><a href="#formation"><span class="pl-title" data-i18n="mp.p2">Formation</span><span class="pl-desc" data-i18n="mp.p2d">ESILV, prépa MPSI, baccalauréat</span></a></li>
+                  <li><a href="#competences"><span class="pl-title" data-i18n="mp.p3">Langues et compétences</span><span class="pl-desc" data-i18n="mp.p3d">Quatre langues, Python, Bloomberg</span></a></li>
+                </ul>
+                <div class="panel-feature feature-profil">
+                  <img src="photo/portrait-tom-hennequin.jpg" alt="" width="297" height="466" loading="lazy" decoding="async">
+                  <div>
+                    <p class="feat-label" data-i18n="facts.dispo">Disponibilité</p>
+                    <p class="feat-big" data-i18n="facts.dispoV">À partir du 31&nbsp;mai 2027</p>
+                    <p class="feat-note" data-i18n="mp.pfText">Stage de 2 à 5 mois en structuration ou en actuariat, en France ou au Luxembourg.</p>
+                    <a class="btn btn-primary btn-compact" href="pdf/CV_Hennequin_Tom.pdf" download="CV_Tom_Hennequin.pdf" data-cv data-i18n="cta.cv">Télécharger le CV</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <button type="button" class="mega-trigger" id="mt-parcours" aria-expanded="false" aria-controls="mp-parcours" data-sections="experience certifications"><span data-i18n="nav.parcours">Parcours</span><svg class="chev" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+            <div class="mega-panel" id="mp-parcours" hidden>
+              <div class="wrap panel-grid">
+                <div class="panel-intro">
+                  <p class="panel-title" data-i18n="nav.parcours">Parcours</p>
+                  <p class="panel-desc" data-i18n="mp.parcours">Salle de marchés, industrie et conseil, puis les certifications obtenues.</p>
+                  <a class="panel-all" href="#experience" data-i18n="mp.allParcours">Voir tout le parcours</a>
+                </div>
+                <ul class="panel-links">
+                  <li><a href="#exp-sg"><span class="pl-title">Société Générale</span><span class="pl-desc" data-i18n="mp.c1d">Stage en structuration, Global Markets</span></a></li>
+                  <li><a href="#exp-keter"><span class="pl-title">Keter Luxembourg</span><span class="pl-desc" data-i18n="mp.c2d">Production, puis optimisation logistique</span></a></li>
+                  <li><a href="#exp-je"><span class="pl-title">Devinci Junior-Entreprise</span><span class="pl-desc" data-i18n="mp.c3d">Suivi des études en conseil</span></a></li>
+                  <li><a href="#certifications"><span class="pl-title" data-i18n="nav.certifications">Certifications</span><span class="pl-desc">Bloomberg, Mantu, TOEFL</span></a></li>
+                </ul>
+                <div class="panel-feature">
+                  <p class="feat-label" data-i18n="mp.tlTitle">Calendrier</p>
+                  <div class="timeline" data-feature="parcours" role="img" aria-label=""></div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <button type="button" class="mega-trigger" id="mt-invest" aria-expanded="false" aria-controls="mp-invest" data-sections="investissement"><span data-i18n="nav.investissement">Investissement</span><svg class="chev" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+            <div class="mega-panel" id="mp-invest" hidden>
+              <div class="wrap panel-grid">
+                <div class="panel-intro">
+                  <p class="panel-title" data-i18n="nav.investissement">Investissement</p>
+                  <p class="panel-desc" data-i18n="mp.invest">Deux comptes suivis comme des fonds, avec leurs indicateurs de risque.</p>
+                  <a class="panel-all" href="#investissement" data-i18n="mp.allInvest">Voir les fiches</a>
+                </div>
+                <ul class="panel-links">
+                  <li><a href="#fs-pea"><span class="pl-title">PEA</span><span class="pl-desc" data-i18n="mp.i1d">Cœur de portefeuille, long terme</span></a></li>
+                  <li><a href="#fs-cto"><span class="pl-title" data-i18n="mp.i2">Compte-titres</span><span class="pl-desc" data-i18n="mp.i2d">Poche tactique</span></a></li>
+                  <li><a href="#methode"><span class="pl-title" data-i18n="mp.i3">Méthode de calcul</span><span class="pl-desc" data-i18n="mp.i3d">Dietz modifiée, volatilité, Sharpe</span></a></li>
+                </ul>
+                <div class="panel-feature">
+                  <p class="feat-label" data-i18n="mp.kpiTitle">Performance depuis l’origine</p>
+                  <div class="kpis" data-feature="invest"></div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <button type="button" class="mega-trigger" id="mt-projets" aria-expanded="false" aria-controls="mp-projets" data-sections="projets"><span data-i18n="nav.projets">Projets</span><svg class="chev" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+            <div class="mega-panel" id="mp-projets" hidden>
+              <div class="wrap panel-grid">
+                <div class="panel-intro">
+                  <p class="panel-title" data-i18n="nav.projets">Projets</p>
+                  <p class="panel-desc" data-i18n="mp.projets">Du pricing au développement, avec des études en cours.</p>
+                  <a class="panel-all" href="#projets" data-i18n="mp.allProjets">Voir les projets</a>
+                </div>
+                <ul class="panel-links">
+                  <li><a href="#pricer"><span class="pl-title" data-i18n="mp.j1">Pricer d’autocall</span><span class="pl-desc" data-i18n="mp.j1d">Coupon d’équilibre par Monte Carlo</span></a></li>
+                  <li><a href="#quinterminal"><span class="pl-title">Quinterminal</span><span class="pl-desc" data-i18n="mp.j2d">Terminal de marché web</span></a></li>
+                  <li><a href="#etudes"><span class="pl-title" data-i18n="mp.j3">Études</span><span class="pl-desc" data-i18n="mp.j3d">Banque et assurance</span></a></li>
+                </ul>
+                <div class="panel-feature">
+                  <p class="feat-label" data-i18n="mp.prTitle">Coupon d’équilibre, réglages actuels</p>
+                  <div class="feat-pricer" data-feature="projets"></div>
+                  <a class="btn btn-primary btn-compact" href="#pricer" data-i18n="mp.prOpen">Ouvrir le pricer</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <button type="button" class="search-toggle" aria-expanded="false" aria-controls="search-panel"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true" focusable="false"><circle cx="7.5" cy="7.5" r="5.75" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M11.8 11.8l4.7 4.7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span data-i18n="search.open">Rechercher</span></button>
+      <a class="btn btn-primary btn-compact header-contact" href="#contact" data-i18n="nav.contact">Contact</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="sheet" data-i18n="nav.menu">Menu</button>
+    </div>
+
+    <div class="search-panel" id="search-panel" hidden>
+      <div class="wrap search-inner">
+        <label class="search-label" for="cmd-input" data-i18n="cmd.label">Rechercher sur le site</label>
+        <div class="search-field" id="cmd">
+          <svg width="22" height="22" viewBox="0 0 18 18" aria-hidden="true" focusable="false"><circle cx="7.5" cy="7.5" r="5.75" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M11.8 11.8l4.7 4.7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <input id="cmd-input" class="cmd-input" type="text" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-describedby="cmd-help" autocomplete="off" spellcheck="false" placeholder="Pricer, PEA, Société Générale…" data-i18n-attr="placeholder:cmd.ph">
+        </div>
+        <p class="search-hint" id="cmd-help" data-i18n="cmd.help">Tapez un mot ou un code, puis Entrée. Touche « / » pour ouvrir la recherche, Échap pour la fermer.</p>
+        <p class="visually-hidden" id="cmd-status" role="status"></p>
+      </div>
+    </div>
+  </header>
+  <div class="mega-scrim" id="mega-scrim" hidden></div>
+
+  <nav class="sheet" id="sheet" aria-label="Index du site" data-i18n-attr="aria-label:nav.index" hidden>
+    <div class="sheet-group" data-sections="profil">
+      <a class="sheet-main" href="#profil" data-i18n="nav.profil">Profil</a>
+      <ul class="sheet-sub">
+        <li><a href="#formation" data-i18n="mp.p2">Formation</a></li>
+        <li><a href="#competences" data-i18n="mp.p3">Langues et compétences</a></li>
+      </ul>
+    </div>
+    <div class="sheet-group" data-sections="experience certifications">
+      <a class="sheet-main" href="#experience" data-i18n="nav.parcours">Parcours</a>
+      <ul class="sheet-sub">
+        <li><a href="#exp-sg">Société Générale</a></li>
+        <li><a href="#exp-keter">Keter Luxembourg</a></li>
+        <li><a href="#exp-je">Junior-Entreprise</a></li>
+        <li><a href="#certifications" data-i18n="nav.certifications">Certifications</a></li>
+      </ul>
+    </div>
+    <div class="sheet-group" data-sections="investissement">
+      <a class="sheet-main" href="#investissement" data-i18n="nav.investissement">Investissement</a>
+      <ul class="sheet-sub">
+        <li><a href="#fs-pea">PEA</a></li>
+        <li><a href="#fs-cto" data-i18n="mp.i2">Compte-titres</a></li>
+      </ul>
+    </div>
+    <div class="sheet-group" data-sections="projets">
+      <a class="sheet-main" href="#projets" data-i18n="nav.projets">Projets</a>
+      <ul class="sheet-sub">
+        <li><a href="#pricer" data-i18n="mp.j1">Pricer d’autocall</a></li>
+        <li><a href="#quinterminal">Quinterminal</a></li>
+        <li><a href="#etudes" data-i18n="mp.j3">Études</a></li>
+      </ul>
+    </div>
+    <p class="sheet-live" data-feature="sheet"></p>
+    <div class="sheet-foot">
+      <a class="btn btn-primary" href="#contact" data-i18n="nav.contact">Contact</a>
+      <a class="btn btn-secondary" href="pdf/CV_Hennequin_Tom.pdf" download="CV_Tom_Hennequin.pdf" data-cv data-i18n="cta.cv">Télécharger le CV</a>
+    </div>
+  </nav>
+
+  <main id="contenu">
+
+    <section class="hero" aria-labelledby="hero-titre">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <h1 id="hero-titre"><span class="hero-name">Tom Hennequin</span><span class="visually-hidden">, </span><span class="hero-title" data-i18n="hero.title">Finance de marché, structuration et actuariat.</span></h1>
+          <p class="hero-lead" data-i18n="hero.sub">Étudiant-ingénieur à l’ESILV, je cherche un stage de 2 à 5 mois en structuration ou en actuariat, à partir du 31&nbsp;mai 2027, en France ou au Luxembourg.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact" data-i18n="cta.contact">Me contacter</a>
+            <a class="btn btn-secondary" href="pdf/CV_Hennequin_Tom.pdf" download="CV_Tom_Hennequin.pdf" data-cv><span data-i18n="cta.cv">Télécharger le CV</span> <span class="btn-meta" data-i18n="cta.cvMeta">PDF</span></a>
+          </div>
+        </div>
+
+        <figure class="sim" aria-labelledby="sim-titre">
+          <div class="sim-head">
+            <h2 class="sim-title" id="sim-titre">Autocall Phoenix à effet mémoire, 8&nbsp;ans</h2>
+            <p class="sim-sub" data-i18n="sim.sub">Une trajectoire simulée de l’indice, en % de son niveau initial, et ce que le produit rembourse.</p>
+          </div>
+          <div class="sim-chart" id="sim-chart" role="img" aria-label="Trajectoire simulée de l’indice"></div>
+          <ul class="sim-legend" id="sim-legend" hidden></ul>
+          <p class="sim-result" id="sim-result" aria-live="polite"></p>
+          <div class="sim-actions">
+            <button class="btn btn-primary btn-compact" id="sim-run" type="button" data-i18n="sim.run">Simuler une autre trajectoire</button>
+            <a class="text-link" href="#pricer" data-i18n="sim.toPricer">Modifier la structure dans le pricer</a>
+          </div>
+          <dl class="sim-stats">
+            <div><dt data-i18n="stat.call">Rappel anticipé</dt><dd data-stat="call">–</dd></div>
+            <div><dt data-i18n="stat.loss">Perte en capital</dt><dd data-stat="loss">–</dd></div>
+            <div><dt data-i18n="stat.life">Durée de vie moyenne</dt><dd data-stat="life">–</dd></div>
+          </dl>
+          <p class="sim-note" data-i18n="sim.note">Probabilités risque-neutres estimées sur 20&#8239;000 trajectoires.</p>
+          <details class="sim-details">
+            <summary data-i18n="sim.hyp">Hypothèses du modèle</summary>
+            <ul id="sim-hyp"></ul>
+          </details>
+        </figure>
+      </div>
+    </section>
+
+    <section class="figures" aria-label="Chiffres clés" data-i18n-attr="aria-label:kf.label">
+      <div class="wrap">
+        <dl class="kf">
+          <div><dt data-i18n="kf.t1">Premier stage en structuration, Global Markets</dt><dd>Société Générale</dd></div>
+          <div><dt data-i18n="kf.t2">Français, anglais, allemand, luxembourgeois</dt><dd data-i18n="kf.v2">4 langues</dd></div>
+          <div><dt data-i18n="kf.t3">Au TOEFL, niveau C1 en anglais</dt><dd>653/677</dd></div>
+          <div><dt data-i18n="kf.t4">Début de stage possible, pour 2 à 5 mois</dt><dd data-i18n="kf.v4">31 mai 2027</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="profil" aria-labelledby="profil-titre">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="profil-titre" data-i18n="profil.title">Profil</h2>
+          <p class="lede" data-i18n="profil.lede">Prépa MPSI, puis l’ESILV en ingénierie financière. Je vise la structuration ou l’actuariat, à Paris comme à Luxembourg.</p>
+        </header>
+
+        <div class="profil-grid">
+          <figure class="portrait">
+            <img src="photo/portrait-tom-hennequin.jpg" width="297" height="466" alt="Tom Hennequin en costume, dans un hall de bureaux vitré" data-i18n-attr="alt:profil.alt" loading="lazy" decoding="async">
+          </figure>
+
+          <div class="profil-bio">
+            <p class="profil-intro" data-i18n="profil.p1">Je suis étudiant-ingénieur à l’ESILV, à La Défense, en spécialisation ingénierie financière&nbsp;: informatique et finance de marché. J’y suis entré après une classe préparatoire MPSI au lycée Henri-Poincaré de Nancy.</p>
+            <p class="aside" data-i18n="profil.p4">En dehors des cours, je joue au handball en compétition, en Nationale&nbsp;1 universitaire (FFSU)&nbsp;: demi-finaliste du championnat d’Île-de-France.</p>
+          </div>
+
+          <div class="profil-formation" id="formation">
+            <h3 class="minor" data-i18n="profil.formation">Formation</h3>
+            <ol class="schools">
+              <li>
+                <p class="when" data-i18n="edu.d1">Depuis sept. 2025</p>
+                <p class="school">ESILV, École Supérieure d’Ingénieurs Léonard de Vinci</p>
+                <p data-i18n="edu.p1">Diplôme d’ingénieur généraliste, spécialisation ingénierie financière. La Défense, Paris.</p>
+              </li>
+              <li>
+                <p class="when" data-i18n="edu.d2">Sept. 2024 – juil. 2025</p>
+                <p class="school">Lycée Henri-Poincaré, Nancy</p>
+                <p data-i18n="edu.p2">Classe préparatoire MPSI, mathématiques et physique.</p>
+              </li>
+              <li>
+                <p class="when" data-i18n="edu.d3">Sept. 2021 – juil. 2024</p>
+                <p class="school">Lycée Hélène-Boucher, Thionville</p>
+                <p data-i18n="edu.p3">Baccalauréat général, mention très bien. Options mathématiques expertes et luxembourgeois.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="profil-skills" id="competences">
+          <div>
+            <h3 class="minor" data-i18n="skills.langues">Langues</h3>
+            <dl class="pairs">
+              <dt data-i18n="lang.fr">Français</dt><dd data-i18n="lang.frV">Langue maternelle</dd>
+              <dt data-i18n="lang.en">Anglais</dt><dd data-i18n="lang.enV">Courant, C1. TOEFL&nbsp;: 653/677</dd>
+              <dt data-i18n="lang.de">Allemand</dt><dd data-i18n="lang.deV">Professionnel, B2</dd>
+              <dt data-i18n="lang.lb">Luxembourgeois</dt><dd data-i18n="lang.lbV">Professionnel, B2</dd>
+            </dl>
+          </div>
+          <div>
+            <h3 class="minor" data-i18n="skills.prog">Programmation et quantitatif</h3>
+            <p>Python, C#, C/C++, SQL, VBA, MATLAB, HTML.</p>
+            <p data-i18n="skills.quant">Simulation Monte Carlo, modélisation de payoffs, analyse de données de marché.</p>
+          </div>
+          <div>
+            <h3 class="minor" data-i18n="skills.outils">Outils</h3>
+            <dl class="pairs">
+              <dt data-i18n="skills.pratique">Pratique</dt><dd data-i18n="skills.pratiqueV">Bloomberg Terminal, Excel et VBA avancés</dd>
+              <dt data-i18n="skills.notions">Notions</dt><dd data-i18n="skills.notionsV">Power BI, Tableau, logiciels actuariels (Prophet, AXIS, Moses)</dd>
+              <dt data-i18n="skills.inge">Ingénierie</dt><dd>SolidWorks, G-code</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="experience" aria-labelledby="experience-titre">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="experience-titre" data-i18n="exp.title">Expérience</h2>
+          <p class="lede" data-i18n="exp.lede">La finance de marché chez Société Générale, l’industrie chez Keter Luxembourg et le conseil à la Junior-Entreprise de l’école.</p>
+        </header>
+
+        <ol class="roles">
+          <li class="role" id="exp-sg">
+            <p class="role-org">Société Générale</p>
+            <h3 class="role-title" data-i18n="sg.role">Stage en structuration de produits structurés</h3>
+            <p class="role-meta"><span data-i18n="sg.dates">Déc. 2025 – janv. 2026</span><span class="role-place">Global Markets, La Défense</span></p>
+            <p class="role-sum" data-i18n="sg.sum">Autocalls et produits sur actions&nbsp;: analyse des structures, payoffs modélisés sous Excel, suivi de performance du portefeuille.</p>
+            <details class="role-more">
+              <summary data-i18n="exp.more">Voir le détail</summary>
+              <ul class="ticks">
+                <li data-i18n="sg.b1">Analyse de produits dérivés equity-linked (autocalls, produits sur actions)&nbsp;: structure des sous-jacents et paramètres de marché associés.</li>
+                <li data-i18n="sg.b2">Modélisation sous Excel des payoffs de produits structurés, avec plusieurs scénarios de marché pour visualiser la distribution des rendements.</li>
+                <li data-i18n="sg.b3">Suivi de la performance des produits en portefeuille à partir d’indicateurs de marché, et reporting régulier pour l’équipe.</li>
+              </ul>
+            </details>
+          </li>
+
+          <li class="role" id="exp-keter">
+            <p class="role-org">Keter Luxembourg</p>
+            <h3 class="role-title">ATO Logistics Optimization</h3>
+            <p class="role-meta"><span data-i18n="kt.dates">Étés 2025 et 2026</span><span class="role-place">Differdange, Luxembourg</span></p>
+            <p class="role-sum" data-i18n="kt.sum">Une équipe d’opérateurs à encadrer et des flux à optimiser en 2026, après un premier été sur les lignes de production.</p>
+            <details class="role-more">
+              <summary data-i18n="exp.more">Voir le détail</summary>
+              <p class="subrole-head"><strong>ATO Logistics Optimization</strong> <span data-i18n="kt.p1">Juin – sept. 2026</span></p>
+              <ul class="ticks">
+                <li data-i18n="kt.b1">Encadrement d’une équipe d’opérateurs de production et réorganisation de plusieurs postes pour supprimer les gestes inutiles et fluidifier la ligne.</li>
+                <li data-i18n="kt.b2">Calculs de nœuds logistiques et optimisation des flux pour identifier les configurations les plus efficaces.</li>
+                <li data-i18n="kt.b3">Amélioration continue selon les méthodes Lean et 5S&nbsp;: détection des anomalies et résolution des problèmes opérationnels.</li>
+              </ul>
+              <p class="subrole-head"><strong>Manufacturing Line Operator</strong> <span data-i18n="kt.p2">Juil. – août 2025</span></p>
+              <ul class="ticks">
+                <li data-i18n="kt.b4">Pilotage de lignes de production automatisées et suivi des paramètres machines.</li>
+                <li data-i18n="kt.b5">Contrôle qualité et analyse de conformité&nbsp;: mesures dimensionnelles, tests de résistance, respect des tolérances.</li>
+              </ul>
+            </details>
+          </li>
+
+          <li class="role" id="exp-je">
+            <p class="role-org">Devinci Junior-Entreprise</p>
+            <h3 class="role-title" data-i18n="je.role">Responsable du suivi des études en conseil</h3>
+            <p class="role-meta"><span data-i18n="je.dates">Engagement associatif</span><span class="role-place">ESILV, La Défense</span></p>
+            <p class="role-sum" data-i18n="je.sum">L’étude suivie a remporté le prix de la meilleure étude conseil, dans une Junior-Entreprise classée parmi les 30 meilleures de France.</p>
+            <details class="role-more">
+              <summary data-i18n="exp.more">Voir le détail</summary>
+              <ul class="ticks">
+                <li data-i18n="je.b1">Suivi de missions de conseil pour des clients&nbsp;; l’étude suivie a remporté le prix de la meilleure étude conseil.</li>
+                <li data-i18n="je.b2">Junior-Entreprise classée parmi les 30 meilleures de France.</li>
+              </ul>
+            </details>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="certifications" aria-labelledby="certifications-titre">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="certifications-titre" data-i18n="cert.title">Certifications</h2>
+          <p class="lede" data-i18n="cert.lede">Bloomberg pour les marchés et les données, Mantu pour le commercial, le TOEFL pour l’anglais.</p>
+        </header>
+
+        <ul class="certs">
+          <li class="cert">
+            <p class="cert-issuer">Bloomberg</p>
+            <h3 class="cert-name">Bloomberg Market Concepts</h3>
+            <p class="cert-date" data-i18n="cert.d1">Mars 2026</p>
+            <p class="cert-text" data-i18n="cert.c1">Indicateurs économiques, devises, taux et actions.</p>
+          </li>
+          <li class="cert">
+            <p class="cert-issuer">Bloomberg</p>
+            <h3 class="cert-name">Bloomberg Spreadsheet Analysis</h3>
+            <p class="cert-date" data-i18n="cert.d1">Mars 2026</p>
+            <p class="cert-text" data-i18n="cert.c2">Données Bloomberg dans Excel, requêtes BQL, screening et analyse de données financières.</p>
+          </li>
+          <li class="cert">
+            <p class="cert-issuer">Mantu</p>
+            <h3 class="cert-name">The Mantu Manager Program</h3>
+            <p class="cert-date" data-i18n="cert.d3">Nov. 2025</p>
+            <p class="cert-text" data-i18n="cert.c3">Programme certifiant en business acquisition&nbsp;: compétences commerciales et managériales.</p>
+          </li>
+          <li class="cert">
+            <p class="cert-issuer">ETS</p>
+            <h3 class="cert-name">TOEFL</h3>
+            <p class="cert-date">653/677</p>
+            <p class="cert-text" data-i18n="cert.c4">Score de 653 sur 677, niveau C1.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="investissement" aria-labelledby="investissement-titre">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="investissement-titre" data-i18n="inv.title">Investissement personnel</h2>
+          <p class="lede" data-i18n="inv.lede">Un PEA pour le long terme et un compte-titres pour des positions plus tactiques. Je publie uniquement des performances en pourcentage, pas de montants.</p>
+        </header>
+
+        <div class="fs-bar">
+          <div class="fs-accounts" id="fs-accounts" role="tablist" aria-label="Comptes" data-i18n-attr="aria-label:inv.accounts" hidden></div>
+          <p class="demo-note" id="demo-note" data-i18n="inv.demo" hidden>Données fictives, en attente des relevés réels.</p>
+        </div>
+        <div class="factsheets" id="factsheets"></div>
+        <noscript><p>Activez JavaScript pour afficher les fiches des portefeuilles.</p></noscript>
+
+        <div class="method-note" id="methode">
+          <p id="method-1"></p>
+          <p id="method-2"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projets" aria-labelledby="projets-titre">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="projets-titre" data-i18n="proj.title">Projets</h2>
+          <p class="lede" data-i18n="proj.lede">Un pricer d’autocall, un terminal de marché et des études sur des sujets de banque et d’assurance.</p>
+        </header>
+
+        <article class="pricer" id="pricer" aria-labelledby="pricer-titre">
+          <div class="pricer-head">
+            <div>
+              <h3 class="project-title" id="pricer-titre" data-i18n="pr.title">Pricer d’autocall Phoenix</h3>
+              <p class="project-kind" data-i18n="pr.kind">Outil interactif, Monte Carlo risque-neutre</p>
+            </div>
+            <p class="pricer-intro" data-i18n="pr.intro">Réglez la structure et le marché. Le pricer cherche le coupon qui équilibre le produit&nbsp;: sa valeur actualisée doit égaler le prix d’émission, moins la marge.</p>
+          </div>
+
+          <div class="pricer-grid">
+            <div class="pricer-controls" id="pricer-form" role="group" aria-label="Paramètres du produit" data-i18n-attr="aria-label:pr.params">
+              <fieldset>
+                <legend data-i18n="pr.structure">Structure</legend>
+                <div class="ctl"><label for="p-years" data-i18n="pr.years">Maturité maximale</label><output id="o-years" for="p-years"></output><input type="range" id="p-years" name="years" min="2" max="10" step="1" value="8"></div>
+                <div class="ctl"><label for="p-call" data-i18n="pr.call">Barrière de rappel</label><output id="o-call" for="p-call"></output><input type="range" id="p-call" name="call" min="70" max="120" step="5" value="100"></div>
+                <div class="ctl"><label for="p-stepDown" data-i18n="pr.stepDown">Dégressivité du rappel, par an</label><output id="o-stepDown" for="p-stepDown"></output><input type="range" id="p-stepDown" name="stepDown" min="0" max="5" step="0.5" value="0"></div>
+                <div class="ctl"><label for="p-coupon" data-i18n="pr.coupon">Barrière de coupon</label><output id="o-coupon" for="p-coupon"></output><input type="range" id="p-coupon" name="coupon" min="40" max="100" step="5" value="70"></div>
+                <div class="ctl"><label for="p-protection" data-i18n="pr.protection">Barrière de protection</label><output id="o-protection" for="p-protection"></output><input type="range" id="p-protection" name="protection" min="30" max="100" step="5" value="60"></div>
+                <div class="ctl ctl-switch"><label for="p-memory" data-i18n="pr.memory">Effet mémoire</label><input type="checkbox" role="switch" id="p-memory" name="memory" checked></div>
+              </fieldset>
+              <fieldset>
+                <legend data-i18n="pr.market">Marché et émetteur</legend>
+                <div class="ctl"><label for="p-vol" data-i18n="pr.vol">Volatilité de l’indice</label><output id="o-vol" for="p-vol"></output><input type="range" id="p-vol" name="vol" min="10" max="40" step="1" value="20"></div>
+                <div class="ctl"><label for="p-q" data-i18n="pr.q">Dividendes</label><output id="o-q" for="p-q"></output><input type="range" id="p-q" name="q" min="0" max="6" step="0.25" value="3"></div>
+                <div class="ctl"><label for="p-r" data-i18n="pr.r">Taux sans risque (€STR)</label><output id="o-r" for="p-r"></output><input type="range" id="p-r" name="r" min="0" max="5" step="0.05" value="2"></div>
+                <div class="ctl"><label for="p-spread" data-i18n="pr.spread">Spread de crédit de l’émetteur</label><output id="o-spread" for="p-spread"></output><input type="range" id="p-spread" name="spread" min="0" max="2" step="0.05" value="0.8"></div>
+                <div class="ctl"><label for="p-margin" data-i18n="pr.margin">Marge de structuration</label><output id="o-margin" for="p-margin"></output><input type="range" id="p-margin" name="margin" min="0" max="4" step="0.25" value="1.5"></div>
+              </fieldset>
+              <button type="button" class="text-link" id="p-reset" data-i18n="pr.reset">Revenir aux réglages initiaux</button>
+              <p class="pr-sticky" aria-hidden="true"><span data-i18n="pr.fair">Coupon d’équilibre</span> <strong data-out="fair-mini">–</strong></p>
+            </div>
+
+            <div class="pricer-results">
+              <div class="pr-headline">
+                <p class="pr-label" data-i18n="pr.fair">Coupon d’équilibre</p>
+                <p class="pr-value" data-out="fair" aria-live="polite">–</p>
+                <p class="pr-unit" data-i18n="pr.fairUnit">par an, versé quand l’indice est au-dessus de la barrière de coupon</p>
+              </div>
+
+              <div class="pr-split" id="pr-split"></div>
+
+              <dl class="pr-stats">
+                <div><dt data-i18n="stat.call">Rappel anticipé</dt><dd data-out="call">–</dd></div>
+                <div><dt data-i18n="stat.loss">Perte en capital</dt><dd data-out="loss">–</dd></div>
+                <div><dt data-i18n="stat.lgl">Perte moyenne si perte</dt><dd data-out="lgl">–</dd></div>
+                <div><dt data-i18n="stat.life">Durée de vie moyenne</dt><dd data-out="life">–</dd></div>
+              </dl>
+
+              <div class="pr-charts">
+                <figure class="pr-chart">
+                  <figcaption data-i18n="pr.dist">Issue du produit</figcaption>
+                  <div class="pr-plot" id="pr-dist" role="img" aria-label=""></div>
+                </figure>
+                <figure class="pr-chart">
+                  <figcaption data-i18n="pr.sens">Coupon d’équilibre selon la volatilité</figcaption>
+                  <div class="pr-plot" id="pr-sens" role="img" aria-label=""></div>
+                </figure>
+              </div>
+
+              <div class="termsheet" id="termsheet">
+                <div class="ts-head">
+                  <h4 class="ts-title" data-i18n="ts.title">Termes indicatifs</h4>
+                  <button type="button" class="btn btn-secondary btn-compact" id="ts-print" data-i18n="ts.print">Imprimer les termes</button>
+                </div>
+                <table class="ts-table">
+                  <caption class="visually-hidden" data-i18n="ts.title">Termes indicatifs</caption>
+                  <tbody id="ts-body"></tbody>
+                </table>
+                <p class="ts-foot" data-i18n="ts.foot">Document illustratif, sans valeur contractuelle.</p>
+              </div>
+            </div>
+          </div>
+          <p class="pricer-note" data-i18n="pr.note">Valorisation sous probabilité risque-neutre&nbsp;: l’indice dérive au taux sans risque moins les dividendes, et les flux sont actualisés au taux sans risque plus le spread de l’émetteur. 20&#8239;000 trajectoires avec variables antithétiques, les mêmes tirages pour tous les réglages. Illustration pédagogique, ni un prix ni une offre.</p>
+        </article>
+
+        <article class="project" id="quinterminal" aria-labelledby="qt-titre">
+          <div class="project-media">
+            <div class="viewer" id="qt-viewer" role="tabpanel" aria-labelledby="qt-tab-1">
+              <button type="button" class="viewer-zoom" id="qt-zoom" aria-label="Agrandir la capture" data-i18n-attr="aria-label:qt.zoom">
+                <img id="qt-image" src="photo/quinterminal-markets.png" loading="lazy" alt="Quinterminal, module Marchés : indices et listes de suivi" width="1600" height="900" decoding="async">
+              </button>
+              <p class="viewer-fallback" id="qt-fallback" hidden><span data-i18n="qt.missing">Capture à ajouter&nbsp;:</span> <span class="file" id="qt-missing"></span></p>
+            </div>
+            <div class="viewer-tabs" role="tablist" aria-label="Modules de Quinterminal" data-i18n-attr="aria-label:qt.tabs">
+              <button type="button" role="tab" id="qt-tab-1" aria-selected="true" aria-controls="qt-viewer" data-src="photo/quinterminal-markets.png" data-alt="Quinterminal, module Marchés : indices et listes de suivi" data-alt-key="qt.a1" data-i18n="qt.t1">Marchés</button>
+              <button type="button" role="tab" id="qt-tab-2" aria-selected="false" tabindex="-1" aria-controls="qt-viewer" data-src="photo/quinterminal-vol.png" data-alt="Quinterminal, module Volatilité : VIX, V2X et indicateurs macro" data-alt-key="qt.a2" data-i18n="qt.t2">Volatilité</button>
+              <button type="button" role="tab" id="qt-tab-3" aria-selected="false" tabindex="-1" aria-controls="qt-viewer" data-src="photo/quinterminal-fx-rates.png" data-alt="Quinterminal, module Change et taux" data-alt-key="qt.a3" data-i18n="qt.t3">Change et taux</button>
+              <button type="button" role="tab" id="qt-tab-4" aria-selected="false" tabindex="-1" aria-controls="qt-viewer" data-src="photo/quinterminal-news.png" data-alt="Quinterminal, module Actualités : flux thématiques" data-alt-key="qt.a4" data-i18n="qt.t4">Actualités</button>
+              <button type="button" role="tab" id="qt-tab-5" aria-selected="false" tabindex="-1" aria-controls="qt-viewer" data-src="photo/quinterminal-air-traffic.png" data-alt="Quinterminal, module Aviation : vols en temps réel" data-alt-key="qt.a5" data-i18n="qt.t5">Aviation</button>
+              <button type="button" role="tab" id="qt-tab-6" aria-selected="false" tabindex="-1" aria-controls="qt-viewer" data-src="photo/quinterminal-maritime.png" data-alt="Quinterminal, module Maritime : points de passage stratégiques" data-alt-key="qt.a6" data-i18n="qt.t6">Maritime</button>
+            </div>
+          </div>
+
+          <div class="project-text">
+            <h3 class="project-title" id="qt-titre">Quinterminal</h3>
+            <p class="project-kind" data-i18n="qt.kind">Terminal de marché web, projet personnel</p>
+            <p data-i18n="qt.desc">Un terminal inspiré des environnements professionnels de type Bloomberg&nbsp;: il réunit le suivi multi-actifs, la lecture macroéconomique et la veille dans une seule interface.</p>
+            <dl class="pairs pairs-stacked features">
+              <dt data-i18n="qt.f1">Marchés</dt><dd data-i18n="qt.f1v">Indices majeurs, change, taux, crypto-actifs.</dd>
+              <dt data-i18n="qt.f2">Volatilité</dt><dd data-i18n="qt.f2v">VIX et V2X pour suivre le régime de risque.</dd>
+              <dt data-i18n="qt.f3">Actualités</dt><dd data-i18n="qt.f3v">Flux thématiques&nbsp;: marchés, aviation, maritime.</dd>
+              <dt data-i18n="qt.f4">Trafic</dt><dd data-i18n="qt.f4v">Vols en temps réel et carte des points de passage maritimes.</dd>
+              <dt data-i18n="qt.f5">Technique</dt><dd data-i18n="qt.f5v">HTML, CSS, JavaScript, API REST, Chart.js. Déployé sur GitHub Pages.</dd>
+            </dl>
+          </div>
+        </article>
+
+        <div class="studies" id="etudes">
+          <div class="studies-head">
+            <h3 class="studies-title" data-i18n="st.title">Études banque et assurance</h3>
+            <p data-i18n="st.intro">Des notes courtes au format professionnel, sur des sujets que traitent les équipes de structuration et d’actuariat.</p>
+          </div>
+          <ol class="study-list">
+            <li class="study">
+              <p class="study-meta"><span class="study-domain" data-i18n="st.bank">Banque</span><span class="study-status" data-i18n="st.wip">En préparation</span></p>
+              <h4 class="study-title" data-i18n="st.t1">Autocall Phoenix sur indice&nbsp;: prix par Monte Carlo et sensibilités</h4>
+              <p class="study-text" data-i18n="st.a1">Valorisation d’un autocall Phoenix à effet mémoire en univers risque-neutre, delta et vega par différences finies, et coupon d’équilibre selon la volatilité et le niveau des barrières.</p>
+              <p class="study-links" data-i18n="st.l1">Note de synthèse et notebook Python</p>
+            </li>
+            <li class="study">
+              <p class="study-meta"><span class="study-domain" data-i18n="st.ins">Assurance</span><span class="study-status" data-i18n="st.wip">En préparation</span></p>
+              <h4 class="study-title" data-i18n="st.t2">Provisionnement non-vie&nbsp;: Chain-Ladder et méthode de Mack</h4>
+              <p class="study-text" data-i18n="st.a2">Estimation des provisions pour sinistres à payer sur un triangle de règlements public, mesure de l’incertitude par l’erreur de Mack et comparaison avec Bornhuetter-Ferguson.</p>
+              <p class="study-links" data-i18n="st.l2">Note de synthèse et code Python</p>
+            </li>
+            <li class="study">
+              <p class="study-meta"><span class="study-domain" data-i18n="st.ins">Assurance</span><span class="study-status" data-i18n="st.wip">En préparation</span></p>
+              <h4 class="study-title" data-i18n="st.t3">Solvabilité&nbsp;II&nbsp;: SCR de marché en formule standard</h4>
+              <p class="study-text" data-i18n="st.a3">Calcul des sous-modules taux, actions et spread pour le bilan simplifié d’un assureur vie, puis agrégation par la matrice de corrélation réglementaire.</p>
+              <p class="study-links" data-i18n="st.l3">Note de synthèse et modèle Excel</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="contact" aria-labelledby="contact-titre">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="contact-titre">Contact</h2>
+          <p class="lede" data-i18n="ct.lede">Le plus simple est de m’écrire, en français ou en anglais.</p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-direct">
+            <p class="contact-mail"><a href="mailto:tomhennequin27@gmail.com">tomhennequin27@gmail.com</a> <button type="button" class="mini-btn" id="copy-email" data-i18n="ct.copy">Copier</button></p>
+            <p class="copy-status" id="copy-status" role="status"></p>
+            <dl class="contact-list">
+              <div><dt data-i18n="ct.phone">Téléphone</dt><dd><a href="tel:+33768454881">+33&nbsp;7&nbsp;68&nbsp;45&nbsp;48&nbsp;81</a></dd></div>
+              <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/tom-hennequin" target="_blank" rel="noopener">linkedin.com/in/tom-hennequin</a></dd></div>
+              <div><dt data-i18n="ct.loc">Localisation</dt><dd data-i18n="ct.locV">Paris La&nbsp;Défense et Luxembourg</dd></div>
+            </dl>
+            <div class="contact-actions">
+              <a class="btn btn-light" href="pdf/CV_Hennequin_Tom.pdf" download="CV_Tom_Hennequin.pdf" data-cv><span data-i18n="cta.cv">Télécharger le CV</span> <span class="btn-meta" data-i18n="cta.cvMeta">PDF</span></a>
+              <button type="button" class="btn btn-outline-light" id="vcard" data-i18n="ct.vcard">Ajouter aux contacts</button>
+            </div>
+          </div>
+
+          <form class="composer" id="composer" novalidate>
+            <h3 class="composer-title" data-i18n="ct.write">Écrire un message</h3>
+            <div class="field-row">
+              <div class="field">
+                <label for="f-nom" data-i18n="ct.name">Nom</label>
+                <input id="f-nom" name="nom" type="text" autocomplete="name">
+              </div>
+              <div class="field">
+                <label for="f-org" data-i18n="ct.org">Organisation</label>
+                <input id="f-org" name="org" type="text" autocomplete="organization">
+              </div>
+            </div>
+            <div class="field">
+              <label for="f-objet" data-i18n="ct.subject">Objet</label>
+              <select id="f-objet" name="objet">
+                <option data-i18n="ct.o1">Stage en structuration</option>
+                <option data-i18n="ct.o2">Stage en actuariat</option>
+                <option data-i18n="ct.o3">Alternance</option>
+                <option data-i18n="ct.o4">Échange sur un projet</option>
+                <option data-i18n="ct.o5">Autre demande</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="f-msg">Message</label>
+              <textarea id="f-msg" name="message" rows="5" aria-describedby="f-help"></textarea>
+            </div>
+            <p class="field-error" id="f-error" role="alert" data-i18n="ct.error" hidden>Écrivez un message avant de préparer l’e-mail.</p>
+            <button class="btn btn-light" type="submit" data-i18n="ct.send">Préparer l’e-mail</button>
+            <p class="composer-help" id="f-help" data-i18n="ct.help">Le bouton ouvre votre messagerie avec ce message, adressé à tomhennequin27@gmail.com.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <p class="footer-name">Tom Hennequin</p>
+          <p class="footer-role" data-i18n="wm.role">Structuration et actuariat</p>
+        </div>
+        <nav class="footer-nav" aria-label="Plan du site" data-i18n-attr="aria-label:ft.map">
+          <div>
+            <p class="fn-title" data-i18n="nav.profil">Profil</p>
+            <ul>
+              <li><a href="#profil" data-i18n="mp.p1">Présentation</a></li>
+              <li><a href="#formation" data-i18n="mp.p2">Formation</a></li>
+              <li><a href="#competences" data-i18n="mp.p3">Langues et compétences</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="fn-title" data-i18n="nav.parcours">Parcours</p>
+            <ul>
+              <li><a href="#exp-sg">Société Générale</a></li>
+              <li><a href="#exp-keter">Keter Luxembourg</a></li>
+              <li><a href="#exp-je">Junior-Entreprise</a></li>
+              <li><a href="#certifications" data-i18n="nav.certifications">Certifications</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="fn-title" data-i18n="nav.investissement">Investissement</p>
+            <ul>
+              <li><a href="#fs-pea">PEA</a></li>
+              <li><a href="#fs-cto" data-i18n="mp.i2">Compte-titres</a></li>
+              <li><a href="#methode" data-i18n="mp.i3">Méthode de calcul</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="fn-title" data-i18n="nav.projets">Projets</p>
+            <ul>
+              <li><a href="#pricer" data-i18n="mp.j1">Pricer d’autocall</a></li>
+              <li><a href="#quinterminal">Quinterminal</a></li>
+              <li><a href="#etudes" data-i18n="mp.j3">Études</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="fn-title">Contact</p>
+            <ul>
+              <li><a href="mailto:tomhennequin27@gmail.com" data-i18n="ct.email">E-mail</a></li>
+              <li><a href="https://www.linkedin.com/in/tom-hennequin" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="pdf/CV_Hennequin_Tom.pdf" download="CV_Tom_Hennequin.pdf" data-cv data-i18n="ft.cv">CV en PDF</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-legal" data-i18n="ft.legal">Les informations sur mes investissements sont présentées à titre personnel et ne constituent pas un conseil en investissement.</p>
+        <p class="footer-meta">© <span id="annee">2026</span> Tom Hennequin. <span data-i18n="ft.updated">Mis à jour en octobre 2026.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lb-caption">
+    <figure class="lb-figure">
+      <img id="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
+      <figcaption id="lb-caption"></figcaption>
+    </figure>
+    <div class="lb-controls">
+      <button type="button" class="lb-btn" id="lb-prev" data-i18n="lb.prev">Précédente</button>
+      <button type="button" class="lb-btn" id="lb-next" data-i18n="lb.next">Suivante</button>
+      <button type="button" class="lb-btn lb-close" id="lb-close" data-i18n="lb.close">Fermer</button>
+    </div>
+  </dialog>
+</body>
+</html>
